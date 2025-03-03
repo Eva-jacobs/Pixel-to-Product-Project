@@ -504,7 +504,7 @@ row-gap:1.5rem;
         height:auto;
         display:flex;
         flex-direction:column;
-        justify-content:start;
+        justify-content:center;
         align-items:center;
         padding: 1rem 4rem;
         row-gap: 1.5rem;
@@ -657,7 +657,7 @@ row-gap:1.5rem;
 @media (max-width: 768px) {
     .card-1{
         height:auto;
-    width:100%;
+    width:80%;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -719,6 +719,17 @@ border-radius:0.5rem;
     color:#F8F8F8;
     font-weight:530;
     text-align:left;
+}
+
+@media (max-width: 768px) {
+    .card-heading h4{
+        font-size:1.125rem;
+        line-height:1.688rem;
+        color:#F8F8F8;
+        font-weight:530;
+        text-align:left;
+   
+    }
 }
 
 .card-paragraph{
@@ -974,6 +985,12 @@ row-gap:4rem;
     row-gap:4rem;
 }
 
+@media (max-width: 768px) {
+    .faq{
+       margin-top:4rem;
+    }
+    }
+
 
 .faq-heading{
     width:100%;
@@ -983,6 +1000,7 @@ row-gap:4rem;
 .faq-heading h1{
     color: #0C0C0C;
     font-size: 2.5rem;
+    line-height:3.75rem;
     font-weight: bold;
     text-align:center;
 }
@@ -1014,12 +1032,9 @@ row-gap:4rem;
 
 @media (max-width: 768px) {
     .faq-card-section {
-        padding: 1rem;
+        padding: 1rem 1rem;
     }
 }
-
-
-
 
 .card-section1{
     width:100%;
@@ -1029,10 +1044,7 @@ row-gap:4rem;
     justify-content:center;
     align-items:center;
     column-gap:2rem;
-
 }
-
-
 
 
 .faq-card1{
@@ -1048,7 +1060,6 @@ row-gap:4rem;
     border-radius:1rem;
     box-shadow: 0 1px 1px #c4bfbf;
 }
-
 
 .question1{
     height:auto;
@@ -1175,6 +1186,13 @@ row-gap:4rem;
     ;
 
 }
+
+@media (max-width: 768px) {
+    .career-section{
+       margin-top:4rem;
+    }
+    }
+
 
 .left-image{
     width:308px;
@@ -1305,6 +1323,21 @@ row-gap:1.5rem;
     
    
 }
+@media (max-width: 768px) {
+    .footer{
+       margin-top:5rem;
+       width:100%;
+       height:auto;
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+       row-gap:2.5rem;
+       background-color:#F8F8F8;
+       padding-left:8rem;
+       padding-right:8rem; 
+    }
+    }
 
 
 .main-footer-content{
@@ -1319,7 +1352,20 @@ row-gap:1.5rem;
     padding:2rem 5rem;
 }
 
-
+@media (max-width: 768px) {
+    .main-footer-content{
+      
+       width:100%;
+       flex-direction:row;
+    justify-content:start;
+    align-items:center;
+    column-gap:5rem;
+    padding:2rem 0;
+    margin-left:-5rem;
+    margin-right:5rem;
+  
+    }
+    }
 
 
 .footer-logo-section{
@@ -1331,6 +1377,12 @@ row-gap:1.5rem;
     justify-content:start;
     align-items:start;
 }
+@media (max-width: 768px) {
+    .footer-logo-section{
+        display:none;
+    }
+    }
+
 
 
 .footer-logo{
@@ -1343,16 +1395,7 @@ row-gap:1.5rem;
     height:88px;
     display:block;
 }
-@media (max-width: 768px) {
-    .footer-logo img{
-        margin-left:6rem;
-    
-    }
-    }
-    .logo-text{
-    width:70%;
-    height:auto;
-}
+
 
 .logo-text p{
 color:#0C0C0C;
@@ -1363,22 +1406,10 @@ text-align:left;
 
 }
 
-@media (max-width: 768px) {
-    .logo-text p{
-        text-align:center;
-    
-    }
-    .logo-text{
-        width:100%;
-    }
-    }
-
-
-
 
 .quick-links{
    
-    width:50%;
+    width:70%;
     height:auto;
     display:flex;
     flex-direction:column;
@@ -1388,20 +1419,22 @@ text-align:left;
 }
 @media (max-width: 768px) {
     .quick-links{
-        display:none;
+        
     }
     }
 .quick-links-heading{
     width:fit-content;
     height:auto;
 }
-
+ 
 .quick-links-heading h5{
     color:#0C0C0C;
     font-size:1rem;
     font-weight:600;
     text-align:left;
 }
+
+
 
 .footer-nav{
     width:100%;
@@ -1434,7 +1467,8 @@ list-style: none;
 }
 @media (max-width: 768px) {
     .contact-info{
-        display:none;
+        
+      
     }
     }
 
@@ -1523,3 +1557,13 @@ list-style: none;
     color:#0C0C0C;
     text-align:center;
  }
+
+ @media (max-width: 768px) {
+    .copyright-deets p{
+        
+        font-size:0.875rem;
+        font-weight:500;
+        color:#0C0C0C;
+        text-align:center;
+    }
+    }
