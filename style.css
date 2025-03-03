@@ -1444,13 +1444,25 @@ text-align:left;
 
 .footer-nav ul li{
 list-style: none;
+font-size:1rem;
 }
 
 .footer-nav li a{
     text-decoration: none;
     line-height:1.5rem;
+  
     color:#0C0C0C;
 }
+@media (max-width: 768px) {
+    .footer-nav ul li{
+        list-style: none;
+        font-size:1rem;
+   
+  
+    }
+    }
+
+
 .footer-nav a:hover{color:#6E33D1;
     text-decoration:underline;
 
@@ -1465,12 +1477,6 @@ list-style: none;
     align-items:start;
     row-gap:1rem;
 }
-@media (max-width: 768px) {
-    .contact-info{
-        
-      
-    }
-    }
 
 .contact-heading{
     width:fit-content;
